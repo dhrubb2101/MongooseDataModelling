@@ -83,3 +83,11 @@ Also add another field which mentions the subTodo's which are created inside the
 todos is a backend application we're gonna make
 //how to enter data into it is controller's problem
 //we'll be focussing on the data present in todos and how to store it
+
+//we'll be using mongoose to store data in mongo db
+//mongoose is a library that provides a schema-based solution to model your application data
+//it provides a way to define the structure of your data and how it should be stored in the database
+//we'll be seeing here how mongoose builds the model and exports it to be used in the application
+//schema here is a method which takes an object as an argument
+
+//we're practicing how to do data modelling
