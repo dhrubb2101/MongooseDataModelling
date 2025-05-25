@@ -1,0 +1,85 @@
+-whenever we are making a backend your first question should be what kind of data or fields are we storing like what the format is
+like whether we have to store username,password and photos,videos
+
+-for backend we will be using js and for database we are using mongo db and which can be easily transferred to mysql and
+
+-there are some professional tools to store data when doing work professionally.
+
+-the most famous tool is Moon Modeler it basically defines a structure for the data.
+
+-A moon modeler typically refers to a data modeling tool used for designing database schemas, especially for NoSQL databases like MongoDB, PostgreSQL, or relational databases. It's a graphical tool that helps in planning and visualizing database structures.
+
+What Does It Do?
+Database Schema Design: Helps create tables, collections, relationships, indexes, etc.
+
+Visual Representation: Offers an intuitive graphical interface to map out the structure of the database.
+
+Documentation: Automatically generates schema documentation for database structures.
+
+Export/Import: Allows exporting models to scripts (like SQL or JSON) or importing existing database schemas.
+
+Collaboration: Facilitates teamwork by sharing models with developers and stakeholders.
+
+Example: Hospital Management System
+Entities:
+
+Patients: Stores patient details (ID, name, age, contact info, etc.).
+
+Doctors: Stores doctor details (ID, specialization, availability, etc.).
+
+Appointments: Tracks appointments with doctor-patient relationships.
+
+Pharmacy: Manages medicine stocks and sales.
+
+Billing: Handles invoices and payments.
+
+Relationships:
+
+A Patient can have multiple Appointments.
+
+A Doctor can handle multiple Patients.
+
+Billing is tied to Appointments and Pharmacy.
+
+Visualization:
+A moon modeler tool will visually map this database structure, showing how Patients, Doctors, Appointments, Pharmacy, and Billing are interconnected. It makes it easier to conceptualize, implement, and maintain.
+
+-You draw diagram here and add fields and it provides you a ready script for it and it is not that tough.
+-it is costly
+
+-eraser.io is also a tool used for data modelling
+
+-here click on "diagram as a code" and it presents you with a format of data
+on the right you can find the source code on eraser.io
+
+//To ensure what fields we are taking we first create a screen to validate it
+and first create a screen where the data will save
+so we take a registeration form
+where we will store
+//username
+//email
+//password
+//photo
+//DOB
+//first thing to worry when buiding a backend is what data we are storing
+//and what format we are storing it and what fields we are storing
+
+/Then comes the login page
+//login doesnt take new entries it takes existing entries already stored in database and validate them
+//To build a to-do application
+//in this screen we will display many to do's like I have created three-four boxes one headlined youtube , another job , another gym
+and in youtube box we create further to do's which contains box which involve
+to do's content and markedAsDone field and creation date and colors also
+
+//For main to do in youtube which gives the main heading so thhat gives us one field
+create one to-do named title field inside box and also to make it a colorful box we can add a color field for all the major todo's and also create another field which mention user who created the major todo's.
+Also add another field which mentions the subTodo's which are created inside the major todo's it will be an array which contains all the objects of subTodo's
+
+//prisma and mongoose are helpful tooks for data modelling.
+////Prisma is an ORM (Object-Relational Mapping) tool that simplifies database interactions in Node.js applications.
+//It provides a type-safe API for querying databases, making it easier to work with data models and perform CRUD operations.
+
+==============================================================================
+todos is a backend application we're gonna make
+//how to enter data into it is controller's problem
+//we'll be focussing on the data present in todos and how to store it
