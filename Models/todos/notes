@@ -91,3 +91,5 @@ todos is a backend application we're gonna make
 //schema here is a method which takes an object as an argument
 
 //we're practicing how to do data modelling
+//written notes ahead in sub_todos.js file
+//now to create the todo model we need to define the schema for it
