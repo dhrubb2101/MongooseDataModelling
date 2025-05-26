@@ -96,4 +96,7 @@ todos is a backend application we're gonna make
 
 //So in Todo we added rederence of both user model and sub-todo model we do it by defining type and red in a specific format and in ref we take the name of database we define like "User" and "SubTodo" and type is defined as mongoose.Schema.Types.ObjectId and then we define entries in subTodo as an array of objects and then go on to decide the entries in SubTodo
 
-//defined the subtodo schema and referenced the user model
+# //defined the subtodo schema and referenced the user model
+
+Ecommerce data modeling example
+//In an e-commerce application, data modeling is crucial for organizing and managing various entities like products, customers, orders, and payments. Here's a simple example of how you might structure the data model for an e-commerce platform using Mongoose:
