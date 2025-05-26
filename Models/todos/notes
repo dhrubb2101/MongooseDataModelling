@@ -100,3 +100,16 @@ todos is a backend application we're gonna make
 
 Ecommerce data modeling example
 //In an e-commerce application, data modeling is crucial for organizing and managing various entities like products, customers, orders, and payments. Here's a simple example of how you might structure the data model for an e-commerce platform using Mongoose:
+
+//In MongoDB, storing large files like images, PDFs, or other binary data is typically not done directly in the database as it can make the database inefficient. Instead, a combination of file storage and MongoDB is often used. Here's how you can handle it:
+
+1. Use a Cloud Storage Service
+   Examples: AWS S3, Google Cloud Storage, Azure Blob Storage.
+
+Workflow:
+
+Upload the file (image/PDF) to the cloud storage service.
+
+Store the file's URL (or metadata) in MongoDB.
+
+When retrieving, use the stored URL to fetch the file.
