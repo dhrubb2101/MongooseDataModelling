@@ -113,3 +113,9 @@ Upload the file (image/PDF) to the cloud storage service.
 Store the file's URL (or metadata) in MongoDB.
 
 When retrieving, use the stored URL to fetch the file.
+
+//for ecommerce created category,product,order,user.model.js files
+started with user then category then product then order
+
+//for hospital management data modeling created doctor,hospital,patient,medical-records js files
+//started with patient then doctors then hospital
